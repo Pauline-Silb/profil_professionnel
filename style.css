@@ -104,6 +104,19 @@ h1 {
 
 .contact-item svg { width: 14px; height: 14px; opacity: 0.6; }
 
+.cv-link {
+  border: 1px solid rgba(247,244,238,0.2);
+  border-radius: 100px;
+  padding: 4px 12px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.cv-link:hover {
+  background: rgba(247,244,238,0.08);
+  border-color: rgba(247,244,238,0.4);
+  color: var(--cream);
+}
+
 /* ── NAV ── */
 nav {
   background: var(--white);
